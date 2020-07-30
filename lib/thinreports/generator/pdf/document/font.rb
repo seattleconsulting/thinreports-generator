@@ -10,7 +10,8 @@ module Thinreports
           'IPAMincho'  => FONT_STORE.join('ipam.ttf').to_s,
           'IPAPMincho' => FONT_STORE.join('ipamp.ttf').to_s,
           'IPAGothic'  => FONT_STORE.join('ipag.ttf').to_s,
-          'IPAPGothic' => FONT_STORE.join('ipagp.ttf').to_s
+          'IPAPGothic' => FONT_STORE.join('ipagp.ttf').to_s,
+          'Meiryo' => FONT_STORE.join('meiryo.ttf').to_s
         }.freeze
 
         DEFAULT_FALLBACK_FONTS = %w[IPAMincho].freeze
